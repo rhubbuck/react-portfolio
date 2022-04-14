@@ -5,6 +5,7 @@ import Footer from './Footer';
 import About from './About';
 import Skills from './Skills';
 import Work from './Work';
+import Modal from './Modal';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <About />
       <Skills />
       <Work />
+      <Modal />
       <Footer />
     </div>
   );
