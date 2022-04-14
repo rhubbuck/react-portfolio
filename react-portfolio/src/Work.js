@@ -1,11 +1,10 @@
 import React, {useState} from 'react';
+
 import './index.css';
 import Nama from './images/logo192.png';
+import Modal from './Modal';
 
 const Work = () => {
-
-    const [style, setStyle] = useState({display: 'none'});
-
     
   return (
     <div>
