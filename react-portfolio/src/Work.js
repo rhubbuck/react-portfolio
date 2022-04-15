@@ -10,7 +10,9 @@ const Work = () => {
     const [ subtitle, setSubtitle] = useState('');
     const [ description, setDescription] = useState('');
     const [ link, setLink] = useState('');
-    const [ image, setImage] = useState();
+    const [ image1, setImage1] = useState();
+    const [ image2, setImage2] = useState();
+    const [ image3, setImage3] = useState();
 
     const handleClick = () => {
         setModalOpen(false);
@@ -21,7 +23,9 @@ const Work = () => {
         setSubtitle('React / Firebase');
         setDescription('Mock restaurant landing page with restaurant information and menus. Reservation information is saved into a backend database to be reviewed and handled by restaurant management/staff.');
         setLink('https://github.com/rhubbuck/react-restaurant');
-        setImage({Nama})
+        setImage1('./images/nama1.png');
+        setImage2('./images/nama2.png');
+        setImage3('./images/nama3.png');
         setModalOpen(true);
     }
 
@@ -66,7 +70,15 @@ const Work = () => {
                 </div>
             </div>        
         </div>
-        {modalOpen && <Modal handleClick={handleClick} title={title} subtitle={subtitle} description={description} link={link} image={image} />}
+        {modalOpen && <Modal 
+                            handleClick={handleClick} 
+                            title={title} subtitle={subtitle} 
+                            description={description} 
+                            link={link} 
+                            image1={image1} 
+                            image2={image2} 
+                            image3={image3}
+                            />}
     </div>
   )
 }
