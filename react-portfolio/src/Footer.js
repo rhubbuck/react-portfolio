@@ -13,7 +13,7 @@ const Footer = () => {
             <ul>
                 <header className='text-xl mb-4'>Contact Me</header>
                 <li className='m-2 cursor-pointer'>rhubbuck@gmail.com</li>
-                <li className='m-2 cursor-pointer'>(865) 804-0597</li>
+                <li className='m-2'>(865) 804-0597</li>
             </ul>
         </div>
     </div>
