@@ -1,10 +1,8 @@
 import React from 'react';
 import './index.css';
 
-const Modal = ({handleClick, title, subtitle, description, link, image1, image2, image3}) => {
+const Modal = ({handleClick, title, subtitle, description, link, image1}) => {
     let photo1 = require(`${image1}`);
-    let photo2 = require(`${image2}`);
-    let photo3 = require(`${image3}`);
 
   return (
     <div className='fixed z-30 top-0 left-0 bottom-0 w-full background-shade'>

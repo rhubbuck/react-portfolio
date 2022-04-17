@@ -25,6 +25,26 @@ code {
   background-repeat: no-repeat;
 }
 
+.work-image-2 {
+  background-image: url(./images/pupexpress.png);
+}
+
+.work-image-3 {
+  background-image: url(./images/netflix.png);
+}
+
+.work-image-4 {
+  background-image: url(./images/alltrails.png);
+}
+
+.work-image-5 {
+  background-image: url(./images/lashes.png);
+}
+
+.work-image-6 {
+  background-image: url(./images/underground.png);
+}
+
 .background-shade {
   background-color: rgba(0, 0, 0, .8);
 }
