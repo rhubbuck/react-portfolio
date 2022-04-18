@@ -19,7 +19,7 @@ const Contact = () => {
 
   return (
         <div className='block p-6 rounded-lg shadow-lg bg-white max-w-md mx-auto my-24'>
-            <h1 className='text-2xl font-sans mb-6'>Let's connect</h1>
+            <h1 className='text-2xl font-sans mb-6'>Let's connect!</h1>
             <form ref={form} onSubmit={sendEmail}>
                 <div class="form-group mb-6">
                     <input type="text" name="name" required placeholder='Name' 

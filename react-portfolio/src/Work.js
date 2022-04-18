@@ -10,6 +10,8 @@ const Work = () => {
     const [ description, setDescription] = useState('');
     const [ link, setLink] = useState('');
     const [ image1, setImage1] = useState();
+    const [ liveLink, setLiveLink] = useState();
+    const [ codeLink, setCodeLink] = useState();
 
     const handleClick = () => {
         setModalOpen(false);
@@ -21,6 +23,8 @@ const Work = () => {
         setDescription('Mock restaurant landing page with restaurant information and menus. Reservation information is saved into a backend database to be reviewed and handled by restaurant management/staff.');
         setLink('https://github.com/rhubbuck/react-restaurant');
         setImage1('./images/nama1.png');
+        setLiveLink('https://rhubbuck.github.io/react-restaurant/');
+        setCodeLink('https://github.com/rhubbuck/react-restaurant');
         setModalOpen(true);
     }
 
@@ -30,6 +34,8 @@ const Work = () => {
         setDescription('E-commerce site created using the Angular framework. I used Commerce.js for the back-end, and Stripe.js was used for the final card payments/processings.');
         setLink('https://github.com/rhubbuck/react-ecommerce');
         setImage1('./images/pupexpress.png');
+        setLiveLink('https://rhubbuck.github.io/react-ecommerce/');
+        setCodeLink('https://github.com/rhubbuck/react-ecommerce');
         setModalOpen(true);
     }
 
@@ -39,6 +45,8 @@ const Work = () => {
         setDescription('Mock site used as a display of ability to capture the styling and overall feel of a website or project. Movies, shows, and like percentage are pulled from an API. ');
         setLink('https://github.com/rhubbuck/API-clone');
         setImage1('./images/netflix.png');
+        setLiveLink('https://rhubbuck.github.io/API-clone/');
+        setCodeLink('https://github.com/rhubbuck/API-clone');
         setModalOpen(true);
     }
 
@@ -49,6 +57,8 @@ const Work = () => {
         setLink('https://github.com/rhubbuck/angular-crud');
         setImage1('./images/alltrails.png');
         setModalOpen(true);
+        setLiveLink('https://rhubbuck.github.io/angular-crud/');
+        setCodeLink('https://github.com/rhubbuck/angular-crud');
     }
 
     const openLashesModal = () => {
@@ -58,6 +68,8 @@ const Work = () => {
         setLink('https://github.com/rhubbuck/react-lashes-website');
         setImage1('./images/lashes.png');
         setModalOpen(true);
+        setLiveLink('https://lashes-by-andrea.com/');
+        setCodeLink('https://github.com/rhubbuck/react-lashes-website');
     }
 
     const openUndergroundModal = () => {
@@ -66,6 +78,8 @@ const Work = () => {
         setDescription('E-commerce page for a small business. Shopify is used for handling the back-end, while their new Hydrogen framework is used for the front-end.');
         setLink('https://github.com/rhubbuck/Hydrogen-New');
         setImage1('./images/underground.png');
+        setLiveLink('https://demo-image-lrxjdbohrq-ue.a.run.app/');
+        setCodeLink('https://github.com/rhubbuck/Hydrogen-New');
         setModalOpen(true);
     }
 
@@ -122,6 +136,8 @@ const Work = () => {
                             description={description} 
                             link={link} 
                             image1={image1}
+                            liveLink={liveLink}
+                            codeLink={codeLink}
                             />}
     </div>
   )

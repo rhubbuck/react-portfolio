@@ -7,11 +7,15 @@ import Skills from './Skills';
 import Work from './Work';
 import Contact from './Contact';
 import Socials from './Socials';
+import SocialSidebar from './SocialSidebar';
+import EmailSidebar from './EmailSidebar';
 
 function App() {
   return (
     <div className="App">
       <Header />
+      <SocialSidebar />
+      <EmailSidebar />
       <Hero />
       <About />
       <Skills />
