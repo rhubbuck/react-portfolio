@@ -18,8 +18,8 @@ const Contact = () => {
     };
 
   return (
-        <div className='block p-6 rounded-lg shadow-lg bg-white max-w-md mx-auto my-24'>
-            <h1 className='text-2xl font-sans mb-6'>Let's connect!</h1>
+        <div className='block p-8 border-2 border-pink-400 max-w-md mx-auto'>
+            <h1 className='text-4xl font-sans mb-6 text-white'>Let's connect!</h1>
             <form ref={form} onSubmit={sendEmail}>
                 <div class="form-group mb-6">
                     <input type="text" name="name" required placeholder='Name' 
@@ -29,14 +29,13 @@ const Contact = () => {
                     py-1.5
                     text-base
                     font-normal
-                    text-gray-700
-                    bg-white bg-clip-padding
-                    border border-solid border-gray-300
-                    rounded
+                    text-gray-700 
+                    bg-slate-900 border-b-2 
+                    border-gray-400
                     transition
                     ease-in-out
                     m-0
-                    focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none' />
+                    focus:text-gray-700 focus:bg-gray-50 focus:border-blue-600 focus:outline-none' />
                 </div>
                 <div class="form-group mb-6">
                     <input type="email" name="email" required placeholder='Email Address' className='block
@@ -46,13 +45,12 @@ const Contact = () => {
                     text-base
                     font-normal
                     text-gray-700
-                    bg-white bg-clip-padding
-                    border border-solid border-gray-300
-                    rounded
+                    bg-slate-900 border-b-2 
+                    border-gray-400
                     transition
                     ease-in-out
                     m-0
-                    focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none' />
+                    focus:text-gray-700 focus:bg-gray-50 focus:border-blue-600 focus:outline-none' />
                 </div>
                 <div class="form-group mb-6">
                     <textarea name="message" required placeholder='Message' className='block
@@ -62,30 +60,31 @@ const Contact = () => {
                     text-base
                     font-normal
                     text-gray-700
-                    bg-white bg-clip-padding
-                    border border-solid border-gray-300
-                    rounded
+                    bg-slate-900 border-b-2 
+                    border-gray-400
                     transition
                     ease-in-out
                     m-0
-                    focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none' />
+                    focus:text-gray-700 focus:bg-gray-50 focus:border-blue-600 focus:outline-none' />
                 </div>
-                <input type="submit" value="SEND" className='w-full
-                px-6
-                py-2.5
-                bg-blue-600
-                text-white
-                font-medium
-                text-xs
-                leading-tight
-                uppercase
-                rounded
-                shadow-md
-                hover:bg-blue-700 hover:shadow-lg
-                focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0
-                active:bg-blue-800 active:shadow-lg
-                transition
-                duration-150
+                <input type="submit" value="SEND" className='inline-block
+                w-full 
+                px-6 
+                py-2 
+                border-2 
+                border-gray-400 
+                text-pink-400
+                font-medium 
+                text-xs 
+                leading-tight 
+                uppercase 
+                rounded 
+                hover:bg-black 
+                hover:bg-opacity-5 
+                focus:outline-none 
+                focus:ring-0 
+                transition 
+                duration-150 
                 ease-in-out' />
             </form>
         </div>

@@ -85,8 +85,22 @@ const Work = () => {
 
   return (
     <div>
-        <header>My Latest Work</header>
+        <header className='text-white text-5xl text-left mx-96 mb-12 pink-border'>My Latest Work</header>
         <div className='grid grid-cols-2 mx-44 gap-x-5'>
+        <div className='h-9 work-image work-image-5 cursor-pointer'>
+                <div className='h-full w-full bg-white opacity-0 hover:opacity-100 hover:border-2 transition-all duration-150'>
+                    <h3 className='pt-20 pb-8 text-3xl font-semibold'>Lashes By Andrea</h3>
+                    <h4>Small-business site</h4>
+                    <button className='inline-block px-6 py-2 border-2 border-purple-600 text-purple-600 font-medium text-xs leading-tight uppercase rounded hover:bg-purple-600 hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out mt-10' onClick={openLashesModal}>Learn More</button>
+                </div>
+            </div>
+            <div className='h-9 work-image work-image-6 cursor-pointer'>
+                <div className='h-full w-full bg-white opacity-0 hover:opacity-100 hover:border-2 transition-all duration-150'>
+                    <h3 className='pt-20 pb-8 text-3xl font-semibold'>Underground Skate Co.</h3>
+                    <h4>Small-business site</h4>
+                    <button className='inline-block px-6 py-2 border-2 border-purple-600 text-purple-600 font-medium text-xs leading-tight uppercase rounded hover:bg-purple-600 hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out mt-10' onClick={openUndergroundModal}>Learn More</button>
+                </div>
+            </div>   
             <div className='h-9 work-image cursor-pointer'>
                 <div className='h-full w-full bg-white opacity-0 hover:opacity-100 hover:border-2 transition-all duration-150'>
                     <h3 className='pt-20 pb-8 text-3xl font-semibold'>Nama Sushi</h3>
@@ -115,20 +129,7 @@ const Work = () => {
                     <button className='inline-block px-6 py-2 border-2 border-purple-600 text-purple-600 font-medium text-xs leading-tight uppercase rounded hover:bg-purple-600 hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out mt-10' onClick={openAlltrailsModal}>Learn More</button>
                 </div>
             </div>
-            <div className='h-9 work-image work-image-5 cursor-pointer'>
-                <div className='h-full w-full bg-white opacity-0 hover:opacity-100 hover:border-2 transition-all duration-150'>
-                    <h3 className='pt-20 pb-8 text-3xl font-semibold'>Lashes By Andrea</h3>
-                    <h4>Small-business site</h4>
-                    <button className='inline-block px-6 py-2 border-2 border-purple-600 text-purple-600 font-medium text-xs leading-tight uppercase rounded hover:bg-purple-600 hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out mt-10' onClick={openLashesModal}>Learn More</button>
-                </div>
-            </div>
-            <div className='h-9 work-image work-image-6 cursor-pointer'>
-                <div className='h-full w-full bg-white opacity-0 hover:opacity-100 hover:border-2 transition-all duration-150'>
-                    <h3 className='pt-20 pb-8 text-3xl font-semibold'>Underground Skate Co.</h3>
-                    <h4>Small-business site</h4>
-                    <button className='inline-block px-6 py-2 border-2 border-purple-600 text-purple-600 font-medium text-xs leading-tight uppercase rounded hover:bg-purple-600 hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out mt-10' onClick={openUndergroundModal}>Learn More</button>
-                </div>
-            </div>        
+     
         </div>
         {modalOpen && <Modal 
                             handleClick={handleClick} 

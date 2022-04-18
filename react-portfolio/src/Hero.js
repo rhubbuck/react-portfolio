@@ -3,11 +3,12 @@ import './index.css';
 
 const Hero = () => {
   return (
-    <div className='bg-red-300 hero-background'>
-        <div className='pt-44 text-left px-24'>
+    <div className='hero-background'>
+        <div className='pt-40 text-left px-32'>
             <div>
-                <h1 className='text-white font-sans text-7xl pb-6'>Ryan Hubbuck</h1>
-                <h2 className='text-white font-sans text-4xl'>Front-end Developer</h2>
+                <h4 className='text-white font-sans text-xl pink-text tracking-widest pb-3'>Hi, my name is</h4>
+                <h1 className='text-white font-sans text-7xl pb-6'>Ryan Hubbuck.</h1>
+                <h2 className='text-white font-sans text-4xl'>-Front-end Developer-</h2>
             </div>
             <div className='flex flex-row pt-44 w-full justify-around '>
                 <a className='cursor-pointer flex flex-col items-center hover:scale-125 transition-all duration-100 ease-in'>

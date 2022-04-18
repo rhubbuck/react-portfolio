@@ -5,7 +5,11 @@ const EmailSidebar = () => {
   return (
     <div className='fixed text-white right-0 bottom-0'>
         <ul>
-            <li className='sidebar-email'>rhubbuck@gmail.com</li>
+            <li className='sidebar-email'>
+              <a href = "mailto:rhubbuck@example.com">
+                rhubbuck@gmail.com
+              </a>
+            </li>
             <div className='email-line'></div>
         </ul>
     </div>

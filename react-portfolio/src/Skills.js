@@ -1,10 +1,11 @@
-import React from 'react'
+import React from 'react';
+import './index.css';
 
 const Skills = () => {
   return (
-    <div className='my-20'>
-        <h2 className='text-5xl'>Technologies I work with</h2>
-        <div className='flex flex-row justify-between mx-96 mt-8'>
+    <div className='my-44'>
+        <h2 className='mx-96 text-white text-5xl text-left pink-border pb-1'>Technologies I work with</h2>
+        <div className='flex flex-row justify-between mx-96 mt-8 text-white'>
             <ul>
                 <header className='text-2xl mb-4'>Languages</header>
                 <li>Javascript</li>

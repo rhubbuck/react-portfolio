@@ -6,20 +6,12 @@ const Modal = ({handleClick, title, subtitle, description, link, image1, liveLin
 
   return (
     <div className='fixed z-30 top-0 left-0 bottom-0 w-full background-shade'>
-        <div className='bg-white p-5 h-4/5 mt-20 w-2/5 mx-auto rounded-md flex flex-col'>
+        <div className='bg-white p-5 h-4/5 mt-20 w-2/5 mx-auto rounded-sm flex flex-col'>
             <div className='flex justify-between flex-col'>
                 <div className=' w-2/3 h-52 mx-auto rounded' style={{
                     backgroundImage: "url("+photo1+")",
                     backgroundSize: "cover"
                     }}></div>
-                {/* <div className='w-64 h-40' style={{
-                    backgroundImage: "url("+photo2+")",
-                    backgroundSize: "contain"
-                    }}></div>
-                <div className='w-64 h-40' style={{
-                    backgroundImage: "url("+photo3+")",
-                    backgroundSize: "contain"
-                    }}></div> */}
             </div>
             <div className='flex flex-col justify-between items-end'>
                 <div>

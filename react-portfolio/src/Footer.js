@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <div>
-        <div className='flex flex-row justify-between py-14 px-64 text-white bg-slate-600'>
+        <div className='flex flex-row justify-between py-14 px-72 text-white bg-slate-900'>
             <ul>
                 <header className='text-xl mb-4'>Useful Links</header>
                 <li className='m-2 cursor-pointer'>Resume</li>
