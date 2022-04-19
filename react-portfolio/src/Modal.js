@@ -18,7 +18,7 @@ const Modal = ({handleClick, title, subtitle, description, link, image1, liveLin
                     <p className='mt-1 text-4xl font-semibold'>{title}</p>
                     <p className='text-xl mt-5'>{subtitle}</p>
                     <p className='text-lg mt-5 mx-2'>{description}</p>
-                    <p className='text-md underline mt-5 cursor-pointer'>{link}</p>
+                    <p className='text-md underline mt-5'>{link}</p>
                     <div>
                         <a href={liveLink} target="_blank" rel='noreferrer'>
                             <button type="button" className="inline-block px-6 py-2.5 bg-purple-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-purple-700 hover:shadow-lg focus:bg-purple-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-purple-800 active:shadow-lg transition duration-150 ease-in-out mx-2 mt-4">Live Site</button>

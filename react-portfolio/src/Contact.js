@@ -68,6 +68,7 @@ const Contact = () => {
                     focus:text-gray-700 focus:bg-gray-50 focus:border-blue-600 focus:outline-none' />
                 </div>
                 <input type="submit" value="SEND" className='inline-block
+                cursor-pointer
                 w-full 
                 px-6 
                 py-2 
