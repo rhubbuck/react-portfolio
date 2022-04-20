@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div className='bg-slate-900 flex justify-between py-8 px-32 fixed w-full z-10'>
+    <div className='bg-slate-900 flex justify-between py-6 px-32 fixed w-full z-10 items-center'>
         <div className='flex text-white text-xl items-center'>
             <h3 className='mx-2 border-2 border-pink-400 p-2 cursor-pointer'>RH</h3>
             {/* <a href='https://www.linkedin.com/in/ryan-hubbuck/' target="_blank" rel='noreferrer'>
