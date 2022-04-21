@@ -19,7 +19,7 @@ const Contact = () => {
 
   return (
         <div className='block p-8 border-2 border-pink-400 max-w-md mx-auto'>
-            <h1 className='text-4xl font-sans mb-6 text-white'>Let's connect!</h1>
+            <h1 className='text-4xl mb-6 text-white font-jakarta'>Let's connect!</h1>
             <form ref={form} onSubmit={sendEmail}>
                 <div class="form-group mb-6">
                     <input type="text" name="name" required placeholder='Name' 
@@ -67,7 +67,8 @@ const Contact = () => {
                     m-0
                     focus:text-gray-700 focus:bg-gray-50 focus:border-blue-600 focus:outline-none' />
                 </div>
-                <input type="submit" value="SEND" className='inline-block
+                <input type="submit" value="SEND" className='inline-block 
+                font-jakarta
                 cursor-pointer
                 w-full 
                 px-6 

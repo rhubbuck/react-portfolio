@@ -3,7 +3,7 @@ import './index.css';
 
 const Skills = () => {
   return (
-    <div className='mt-52'>
+    <div className='mt-72 font-jakarta'>
         <h2 className='mx-96 text-white text-5xl text-left pink-border pb-1'>Technologies I work with</h2>
         <div className='flex flex-row justify-between mx-96 mt-8 text-white'>
             <ul>

@@ -84,7 +84,7 @@ const Work = () => {
     }
 
   return (
-    <div className='mt-52'>
+    <div className='mt-72 font-jakarta'>
         <header className='text-white text-5xl text-left mx-96 mb-12 pink-border'>My Latest Work</header>
         <div className='grid grid-cols-2 mx-44 gap-x-5'>
         <div className='h-9 work-image work-image-5 cursor-pointer'>

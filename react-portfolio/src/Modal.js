@@ -13,7 +13,7 @@ const Modal = ({handleClick, title, subtitle, description, link, image1, liveLin
                     backgroundSize: "cover"
                     }}></div>
             </div>
-            <div className='flex flex-col justify-between items-end'>
+            <div className='flex flex-col justify-between items-end font-jakarta'>
                 <div>
                     <p className='mt-1 text-4xl font-semibold'>{title}</p>
                     <p className='text-xl mt-5'>{subtitle}</p>
