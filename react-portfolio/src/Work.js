@@ -84,9 +84,9 @@ const Work = () => {
     }
 
   return (
-    <div className='mt-72 font-jakarta'>
-        <header className='text-white text-5xl text-left mx-96 mb-12 pink-border'>My Latest Work</header>
-        <div className='grid grid-cols-2 mx-44 gap-x-5'>
+    <div className='md:mt-72 mt-28 font-jakarta'>
+        <header className='text-white md:text-5xl text-3xl md:text-left text-center md:mx-96 mb-12 pink-border'>My Latest Work</header>
+        <div className='grid grid-cols-1 md:grid-cols-2 md:mx-44 gap-x-5'>
         <div className='h-9 work-image work-image-5 cursor-pointer'>
                 <div className='h-full w-full bg-slate-900 opacity-0 hover:opacity-100 hover:border-2 hover:border-pink-400 transition-all duration-150'>
                     <h3 className='pt-20 pb-8 text-3xl font-semibold text-white'>Lashes By Andrea</h3>

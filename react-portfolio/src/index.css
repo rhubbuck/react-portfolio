@@ -86,3 +86,11 @@ code {
 .pink-border {
   border-bottom: 2px solid #FF66CC;
 }
+
+@media only screen and (max-width: 768px) {
+
+  .hero-background {
+    height: 34rem;
+  }
+  
+}

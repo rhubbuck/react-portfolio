@@ -3,7 +3,7 @@ import './index.css';
 
 const SocialSidebar = () => {
   return (
-    <div className='fixed text-white left-20 bottom-0 z-50'>
+    <div className='fixed text-white left-20 bottom-0 z-50 hidden md:block'>
         <ul>
             <li>
             <a href='https://www.linkedin.com/in/ryan-hubbuck/' target="_blank" rel='noreferrer'>

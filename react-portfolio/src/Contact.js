@@ -18,10 +18,12 @@ const Contact = () => {
     };
 
   return (
-        <div className='block p-8 border-2 border-pink-400 max-w-md mx-auto'>
-            <h1 className='text-4xl mb-6 text-white font-jakarta'>Let's connect!</h1>
-            <form ref={form} onSubmit={sendEmail}>
-                <div class="form-group mb-6">
+        <div className='block p-8 mx-auto'>
+            <h1 className='md:text-5xl text-3xl mb-10 text-white font-jakarta pink-border pb-1 max-w-md mx-auto'>Let's connect!</h1>
+            <p className='text-white mx-auto max-w-2xl pb-8 md:text-lg text-base'>If you're interested in contracted or full-time work, or just want to say hi and talk, just leave your info 
+            and I'll get in touch soon.</p>
+            <form ref={form} onSubmit={sendEmail} className='max-w-md mx-auto'>
+                <div class="form-group mb-8">
                     <input type="text" name="name" required placeholder='Name' 
                     className='block
                     w-full
@@ -37,7 +39,7 @@ const Contact = () => {
                     m-0
                     focus:text-gray-700 focus:bg-gray-50 focus:border-blue-600 focus:outline-none' />
                 </div>
-                <div class="form-group mb-6">
+                <div class="form-group mb-8">
                     <input type="email" name="email" required placeholder='Email Address' className='block
                     w-full
                     px-3
@@ -52,7 +54,7 @@ const Contact = () => {
                     m-0
                     focus:text-gray-700 focus:bg-gray-50 focus:border-blue-600 focus:outline-none' />
                 </div>
-                <div class="form-group mb-6">
+                <div class="form-group mb-8">
                     <textarea name="message" required placeholder='Message' className='block
                     w-full
                     px-3
@@ -67,7 +69,7 @@ const Contact = () => {
                     m-0
                     focus:text-gray-700 focus:bg-gray-50 focus:border-blue-600 focus:outline-none' />
                 </div>
-                <input type="submit" value="SEND" className='inline-block 
+                <input type="submit" value="SEND" className='inline-block mt-4 
                 font-jakarta
                 cursor-pointer
                 w-full 

@@ -7,7 +7,7 @@ import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scro
 const Footer = () => {
   return (
     <div className='relative'>
-        <div className='flex flex-row justify-between py-14 mt-10 px-80 text-white bg-slate-900 font-jakarta'>
+        <div className='flex flex-row justify-between py-6 md:py-14 mt-10 md:px-80 px-8 text-white bg-slate-900 font-jakarta'>
             <ul>
                 <header className='text-xl mb-4'>Useful Links</header>
                 <li className='m-2 cursor-pointer'><a href={Resume} target='_blank' rel='noreferrer'>Resume</a></li>
@@ -20,7 +20,7 @@ const Footer = () => {
                 <li className='m-2'>(865) 804-0597</li>
                 <li><br></br></li>
                 <Link to='hero' spy={true} smooth={true} offset={-50}>
-                <svg className='absolute right-44 bottom-10 h-12 w-12 cursor-pointer' xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="#FF66CC" stroke-width="2">
+                <svg className='absolute right-3 bottom-2 md:right-44 md:bottom-10 h-12 w-12 cursor-pointer' xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="#FF66CC" stroke-width="2">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M5 11l7-7 7 7M5 19l7-7 7 7" />
                 </svg>
                 </Link>
